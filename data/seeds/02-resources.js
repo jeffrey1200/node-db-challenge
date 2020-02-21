@@ -2,18 +2,18 @@ exports.seed = function(knex) {
   return knex("resources").insert([
     {
       id: 1,
-      resource_name: "Wikipedia",
-      resource_desc: "Wikipedia description"
+      name: "Wikipedia",
+      description: "Wikipedia description"
     },
     {
       id: 2,
-      resource_name: "Lambda",
-      resource_desc: "Lambda descrition"
+      name: "Lambda",
+      description: "Lambda description"
     },
     {
       id: 3,
-      resource_name: "Google",
-      resource_desc: "Google description"
+      name: "Google",
+      description: "Google description"
     }
   ]);
 };
